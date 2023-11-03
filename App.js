@@ -1,8 +1,8 @@
 import React from "react";
-import { Image, ScrollView, Text } from "react-native";
+import { Image, Text } from "react-native";
 
 export default function App() {
-  /* const [text, setText] = useState("");
+  const [text, setText] = useState("");
   return (
     <View style={styles.container}>
       <Image source={require(`./assets/favicon.png`)} />
@@ -14,9 +14,9 @@ export default function App() {
       <Text>{text.toUpperCase()}</Text>
       <StatusBar style="auto" />
     </View>
-  ); */
+  );
 
-  return (
+  /* return (
     <ScrollView>
       <Text>BlackWidow</Text>
       <Image source={require("./assets/BlackWidow.png")} />
@@ -31,7 +31,7 @@ export default function App() {
       <Text>Thor</Text>
       <Image source={require("./assets/Thor.png")} />
     </ScrollView>
-  );
+  ); */
 }
 
 /* const styles = StyleSheet.create({
